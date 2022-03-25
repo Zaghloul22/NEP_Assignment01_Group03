@@ -7,13 +7,6 @@ public interface CiKuPangController {
 	    String pleaseEnterOptionMessage();
 
 	    void selectUserChoice(GameOption userOption);
-
-	    GameOption randomMachineChoice();
-
-	    CiKuPangResult calculateResultAtt();
-	    CiKuPangResult calculateResultDef();
-	    
-	    CiKuPangScore getResults();
 	
 }
 
